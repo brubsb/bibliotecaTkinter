@@ -10,7 +10,7 @@ Este projeto é um sistema de votação simples feito com Python e a biblioteca 
 
 ## ✨ Melhorias e Personalizações
 
-O sistema original era funcional, mas bastante simples (cru). Ele incluía apenas:
+O sistema original era funcional, mas simples. Ele incluía apenas:
 
 - Cadastro de candidatos
 - Registro de votos
@@ -46,39 +46,3 @@ O sistema original era funcional, mas bastante simples (cru). Ele incluía apena
 
   Total de votos: 8
   ```
-
----
-
-## 🧠 Tecnologias utilizadas
-
-- Python 3
-- Tkinter (GUI padrão do Python)
-
----
-
-## 📦 Como rodar o projeto
-
-1. Certifique-se de ter o Python instalado (versão 3+).
-2. Baixe ou clone este repositório.
-3. Execute o arquivo `.py` com:
-
-   ```
-   python nome_do_arquivo.py
-   ```
-
----
-
-## 💡 Possíveis melhorias futuras
-
-- Armazenamento de votos e candidatos em banco de dados
-- Tela inicial com autenticação
-- Exportação dos dados para PDF ou Excel
-- Suporte para votação online em rede local
-
----
-
-## 👩‍💻 Desenvolvido por
-
-Bruna – 3º ano do Ensino Médio + Curso Técnico em Desenvolvimento de Sistemas (SENAI)
-
----
