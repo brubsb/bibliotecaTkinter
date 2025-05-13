@@ -1,64 +1,84 @@
-🗳️ Sistema de Votação com Interface Gráfica (Tkinter)
-Este projeto é um sistema de votação simples desenvolvido em Python com interface gráfica usando a biblioteca Tkinter. A versão original da aplicação era uma implementação básica com as funcionalidades essenciais:
+# 🗳️ Sistema de Votação com Interface Gráfica (Tkinter)
 
-Cadastro de candidatos
+Este projeto é um sistema de votação simples feito com Python e a biblioteca `tkinter`, onde é possível:
 
-Registro de votos
+- Cadastrar candidatos
+- Registrar votos
+- Encerrar a votação e visualizar os resultados
 
-Encerramento da votação
+---
 
-🌟 Melhorias e Personalizações Feitas
-A versão inicial da "urna" era completamente funcional, mas sem qualquer personalização visual ou recursos extras. Todo o trabalho de estilização, experiência do usuário e funcionalidades complementares foi desenvolvido posteriormente.
+## ✨ Melhorias e Personalizações
 
-✨ Interface Gráfica Reformulada
-Estilo visual moderno com cores suaves (tons de verde claro e amarelo pastel) para tornar a experiência mais agradável e acessível.
+O sistema original era funcional, mas bastante simples (cru). Ele incluía apenas:
 
-Definição de paleta de cores reutilizável (COR_FUNDO, COR_BOTAO, COR_TEXTO, etc.).
+- Cadastro de candidatos
+- Registro de votos
+- Encerramento da votação com exibição simples dos resultados
 
-Botões com hover dinâmico, proporcionando feedback visual ao passar o mouse.
+### As principais melhorias que **eu adicionei** foram:
 
-🪄 Pop-ups Totalmente Personalizados
-Substituição dos antigos messagebox padrão do Tkinter por janelas Toplevel estilizadas:
+#### 🎨 Estilização visual
+- Interface redesenhada com **cores personalizadas**:
+  - Fundo claro e agradável
+  - Botões em tons de verde com efeito hover
+- **Fonte personalizada** em toda a interface
+- **Botões grandes e amigáveis** com layout consistente
+- Elementos alinhados para facilitar a leitura e uso
 
-Cabeçalhos com título customizado
+#### 💬 Pop-ups personalizados
+- Substituição dos `messagebox` padrão por **janelas `Toplevel` estilizadas**, com:
+  - Mesmas cores da interface principal
+  - Títulos personalizados
+  - Botões com hover e aparência amigável
+  - Opção de confirmação (Sim/Não)
 
-Mensagens centralizadas com quebra automática de linha
+#### 📄 Geração de relatório em `.txt`
+- Adicionei uma nova funcionalidade para **gerar um relatório com os resultados** da votação
+- O usuário pode **escolher o nome do arquivo**
+- Após salvar, é possível **abrir o arquivo automaticamente**
+- Exemplo do conteúdo do relatório:
+  ```
+  ===== RELATÓRIO DE VOTAÇÃO =====
 
-Botões de confirmação e decisão (Sim/Não) com visual unificado
+  Fulano (ABC) - 3 voto(s)
+  Ciclano (XYZ) - 5 voto(s)
 
-Compatíveis com todas as interações da aplicação (confirmações, erros, avisos)
+  Total de votos: 8
+  ```
 
-🧾 Relatório em .txt (Nova Funcionalidade Criada)
-Adição de um módulo de geração de relatórios que não existia na versão original:
+---
 
-Relatório mostra todos os candidatos e a quantidade de votos recebida
+## 🧠 Tecnologias utilizadas
 
-Indica se nenhum voto foi registrado
+- Python 3
+- Tkinter (GUI padrão do Python)
 
-Permite ao usuário salvar com nome personalizado
+---
 
-Após salvar, pergunta se deseja abrir o arquivo diretamente no sistema
+## 📦 Como rodar o projeto
 
-🖼️ Melhorias Gerais na Experiência
-Todas as janelas (cadastro, votação, relatório) agora seguem o mesmo padrão visual
+1. Certifique-se de ter o Python instalado (versão 3+).
+2. Baixe ou clone este repositório.
+3. Execute o arquivo `.py` com:
 
-Utilização de pack com padding consistente para uma navegação fluida
+   ```
+   python nome_do_arquivo.py
+   ```
 
-Campos de entrada com cor clara e fonte legível
+---
 
-Mensagens de sucesso, erro ou confirmação mais claras e elegantes
+## 💡 Possíveis melhorias futuras
 
-📌 Funcionalidades Finais
-Cadastro de candidatos
+- Armazenamento de votos e candidatos em banco de dados
+- Tela inicial com autenticação
+- Exportação dos dados para PDF ou Excel
+- Suporte para votação online em rede local
 
-Registro de votos
+---
 
-Pop-ups confirmando ou rejeitando votos nulos
+## 👩‍💻 Desenvolvido por
 
-Encerramento da votação
+Bruna – 3º ano do Ensino Médio + Curso Técnico em Desenvolvimento de Sistemas (SENAI)
 
-Visualização dos resultados
-
-Salvamento do relatório em .txt
-
-Estilo visual completo e responsivo
+---
